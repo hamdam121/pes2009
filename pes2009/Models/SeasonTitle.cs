@@ -12,6 +12,8 @@ namespace pes2009.Models
         public virtual int SeasonID { get; set; }
         public virtual int TeamTitleID { get; set; }
 
+        public virtual int TeamID { get; set; }
+
 
     }
 }

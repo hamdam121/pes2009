@@ -17,6 +17,7 @@ namespace pes2009.DAL
         public DbSet<Team> Teams { get; set; }
         public DbSet<TeamTitle> TeamTitles { get; set; }
         public DbSet<Season> Seasons { get; set; }
+        public DbSet<SeasonTitle> SeasonTitles { get; set; }
 
     }
 }
